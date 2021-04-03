@@ -1,0 +1,27 @@
+/* * es un selector pero para todos los elementos */
+*{
+    border: 1px solid red;
+}
+body{
+    font-size: 20px;
+}
+header{
+    height: 500px;
+    width: 400px;
+}
+p{
+    border: 2px solid blue;
+    /*el porcentaje trabaja en base al tamaño al tamaño del padre sea ancho o alto*/
+    width: 50%;
+    /*em coge el tamaño del padre mas cercano */
+    font-size: 0.5em;
+}
+label{
+    /* el tamaño mas lejando, en este caso el body */
+    font-size: 1rem;
+}
+div{
+    border: 4px solid purple;
+    width: 100vw;
+    height: 100vh;
+}
