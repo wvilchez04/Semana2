@@ -1,16 +1,8 @@
-/* * es un selector pero para todos los elementos */
-*{
-    border: 1px solid #45FC46;
-}
 body{
     font-size: 20px;
 }
-header{
-    height: 500px;
-    width: 400px;
-}
+
 p{
-    border: 2px solid blue;
     /*el porcentaje trabaja en base al tamaño al tamaño del padre sea ancho o alto*/
     width: 50%;
     /*em coge el tamaño del padre mas cercano */
@@ -27,4 +19,11 @@ div{
 }
 h1{
     font-size: 5vw;
+}
+img{
+    width: 10%;
+    height: 10%;
+}
+h2{
+    color: chocolate;
 }
